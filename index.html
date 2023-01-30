@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link href="https://fonts.cdnfonts.com/css/montage" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <title>Maher Website</title>
+</head>
+<body>
+
+    <header class="buyHeader">
+        <div class="buy__container">
+
+            <div class="credit_card">
+                <div class="credit_top">
+                    <p> Credit Card </p>
+                    <p> Bank Name </p>
+                </div>
+
+                <div class="credit_middle">
+                    <ion-icon name="hardware-chip-outline"></ion-icon>
+                </div>
+
+                <div class="credit_bottom">
+                    <p class="credit_number"> 1234 5678 9012 3456</p>
+                    <p class="cvv_number"> 0123 </p>
+                    <p class="owner_text"> Name Surname </p>
+                </div>
+            </div>
+
+            <div class="buy__card">
+
+                <div class="top__status">
+                    <p> Owner </p>
+                    <p> CVV </p>
+                </div>
+                <div class="top__card">
+                    <input class="owner_input" type="Text" placeholder="OWNER" required>
+                    <input class="cvv_input" type="Text" placeholder="CVV" required>
+                </div>
+
+                <input class="cardNumber" type="Text" required placeholder="Card Number..">
+                <button type="submit"> CONFIRM </button>
+            </div>
+
+        </div>
+    </header>
+
+    <section class="section-main" id="section-main"> 
+
+        <div class="waveShapeBottom">
+            <svg data-name="Layer 1" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+        
+            <nav class="nav-bar">
+                <h2> <span>M</span>aher <span>L</span>O</h2>
+                <i class="fa fa-sliders" id="slide" aria-hidden="true"></i>
+                <div class="links">
+                    <ul>
+                        <li> <a href="#section-main">Home</a></li>
+                        <li> <a href="#section2">Sponsors</a></li>
+                        <li> <a href="#section3">About </a></li>
+                        <li> <a href="#section4">Contact</a> </li>
+                    </ul>
+                </div>
+            </nav>
+
+        <div class="content1 hidden">
+            
+            <div class="image-container">
+                <img src="./3dEthLogo.webp" >
+                <div id="3d-model"></div>
+            </div>
+            <div class="text">
+                <h2>Welcome to Ethereum Plattform</h2>
+                <p> Hier you can buy the 2nd most famous Cryptocurrency
+                    around the World Ethereum
+                </p>
+                <button class="buybtn"> Buy Now </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-main2" id="section2">
+
+        <div class="waveShapeTop">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+            </svg>
+        </div>
+
+        <div class="title"> <h4>Sponsored Projects</h4></div>
+        
+        <div class="container hidden">
+            <div class="card">
+                <div class="content">
+                    <h2>Polygon</h2>
+                    <img src="./polygon.png">
+
+                    <p>The Polygon token is used for transactions 
+                        and payments on the Polygon blockchain, which is 
+                        interoperable with Ethereum.
+                    </p>
+                    <a href="https://polygon.technology/" >Official Site</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h2>Graph</h2>
+                    <img src="./graph.png">
+                    <p>The Graph token is a decentralized protocol for
+                         indexing and querying data from blockchains 
+                         .
+                    </p>
+                    <a href="https://thegraph.com/en/" >Official Site</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h2>Algorand</h2>
+                    <img src="./alogorand.png">
+                    <p>The Algorand token is a decentralized and scalable 
+                        platform for building and running applications.
+                    </p>
+                    <a href="https://www.algorand.com/" >Official Site</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="waveShapeBottom2">
+            <svg data-name="Layer 1" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <section class="section3" id="section3">
+
+
+        <article>
+            
+            <div class="article_container hidden">
+
+                <div class="article_contentTop">
+
+                    <p>Ethereum is a decentralized, open-source 
+                        blockchain platform that enables the creation of 
+                        smart contracts and decentralized applications. 
+                        It has its own programming language, called Solidity, 
+                        and supports the creation of a wide range of digital 
+                        assets and applications. Ethereum is widely regarded 
+                        as one of the most influential and important 
+                        blockchain platforms in the world.</p>
+
+                    <div class="line"> </div>
+
+                </div>
+
+                <div class="article_contentBottom">
+
+                    <div class="article_cards">
+
+                        <div class="article_card">
+
+                            <i class="fa fa-shield" aria-hidden="true"></i>
+
+                            <p>
+                                Ethereum tokens are secured using cryptographic protocols
+                                making them resistant to tampering or fraud.
+                            </p>
+
+                        </div>
+
+                        <div class="article_card">
+
+                            <i class="fa fa-exchange" aria-hidden="true"></i>
+
+                            <p>
+                                Ethereum tokens can be easily transferred from one user to another
+                            either directly or through the use of an exchange.
+                            </p>
+
+                        </div>
+
+                        <div class="article_card">
+
+                            <i class="fa fa-lock" aria-hidden="true"></i>
+
+                            <p>
+                                Ethereum tokens are decentralized, meaning that they
+                                 are not controlled by any single entity or 
+                                 organization.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+        <div class="waveShapeOPTop">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+            </svg>
+        </div>
+
+    </section>
+
+    <section class="section4" id="section4">
+
+        <contain>
+
+            <div class="contact__box hidden">
+
+                <form class="details" action="https://formsubmit.co/ytmaher2@gmail.com" method="POST">
+
+                    <h1> Contact Us </h1>
+                    <div class="inputBox">
+                        <input type="text" name="name" id="name" required = "required">
+                        <span> Name </span>
+                        <i> </i>
+                    </div>
+
+                    <div class="inputBox">
+                        <input type="email" name="email" id="email"  required = "required">
+                        <span> Email </span>
+                        <i> </i>
+                    </div>
+
+                    <div class="inputBox">
+                        <textarea name="message" id="message" required></textarea>
+                        <span> Message </span>
+                        <i> </i>
+                    </div>
+
+                    <div class="send__btn">
+                        <button type="submit"> SEND </button>
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="image__container hidden">
+                <img src="/ethereum-eth-logo.png" alt="3dEthLogo">
+            </div>
+
+          
+            
+
+        </contain>
+       
+    </section>
+
+    <footer>
+        <div class="containerFooter">
+            <div class="contentFooter">
+                <div class="iconsFooter"> 
+                    <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-quora" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-id-card" aria-hidden="true"></i></a>
+                </div>
+               
+                <h1> All right reserved to Maher &copy </h1>
+            </div>
+        </div>
+        
+    </footer>
+
+
+
+    <script src="./app.js"> </script>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
